@@ -3,7 +3,7 @@ body {
     background-color: #f5f5f5;
     padding: 20px;
     color:white;
-    background-color: #0a9396;
+    background-color:#2b2d42;
   }
   main
   {
@@ -82,6 +82,26 @@ body {
     font-size: 12px;
     margin-top: 5px;
   }
+  /* button
+  {
+      background-color:#151b29;
+      font-family:Arial, Helvetica, sans-serif;
+      font-family: 'Roboto', sans-serif;
+      border-radius: .5em;
+      color: peachpuff;
+      border: 3px solid black;
+      padding:5px 10px;
+      transition: .3s;
+  }
+  button:hover
+  {
+      border: 3px solid white;
+      color: white;
+      transform: translateX(3px);
+      background-color: black;
+      offset-x | offset-y | blur-radius | spread-radius | color
+      box-shadow: .5em 0em .5em -.2em yellow;
+  } */
   button {
     --primary-color: #645bff;
     --secondary-color: #fff;
@@ -95,7 +115,7 @@ body {
     padding: 1em 1.8em;
     background: var(--primary-color);
     display: flex;
-    transition: 0.2s;
+    transition: 0.2s background;
     align-items: center;
     gap: 0.6em;
     font-weight: bold;
@@ -106,6 +126,7 @@ body {
     justify-content: center;
     align-items: center;
   }
+  
   button .arrow {
     margin-top: 1px;
     width: var(--arrow-width);
@@ -114,6 +135,7 @@ body {
     position: relative;
     transition: 0.2s;
   }
+  
   button .arrow::before {
     content: "";
     box-sizing: border-box;
@@ -126,6 +148,10 @@ body {
     transition: 0.2s;
     padding: 3px;
     transform: rotate(-45deg);
+  }
+  .h
+  {
+    color: #111;
   }
   button:hover {
     background-color: var(--hover-color);
