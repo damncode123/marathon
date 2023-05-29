@@ -1,38 +1,55 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <link rel="stylesheet" href="marthonpath.css">
-  <title>Marathon Registration Form</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kanit&family=Oswald:wght@500;600&family=Roboto&display=swap" rel="stylesheet">
+    <title>Marathon Registration Form</title>
 </head>
+
 <body>
     <main>
+        <div class="main">
         <form action="#" method="POST">
-            <h2>Marathon Registration Form</h2>
-          <div><label class="h" for="name">Name:</label>
-            <input type="text" id="name" name="name" required><br></div>
-          <div><label class="h"for="branch">Branch:</label>
-            <input type="text" id="branch" name="branch" required></div>
-          <div><label class="h"for="college">College/Outside College:</label><br>
-            <input type="radio" id="college" name="college" value="college" required>
-            <label class="h" for="college">College</label>
-            <input type="radio" id="outside_college" name="college" value="outside_college" required>
-            <label class="h" for="outside_college">Outside College</label><br></div>
-              <div><label class="h" for="gender">Gender:</label>
-            <input type="radio" id="male" name="gender" value="male" required>
-            <label class="h" for="male">Male</label>
-            <input type="radio" id="female" name="gender" value="female" required>
-            <label class="h" for="female">Female</label><br></div>
-          <div><label class="h" for="email">Email:</label>
-            <input type="email" id="email" name="email" required><br></div>
-          <div><label class="h" for="phone">Phone Number:</label>
-            <input type="tel" id="phone" name="phone" required><br></div>
-           <button>
-              SUBMIT
-              <div class="arrow-wrapper">
-                  <div class="arrow"></div>
-              </div>
-          </button>
-        </form></main>
+            <h2>Marathon Registration Form </h2>
+            <div class="main"><label class="h" for="name">Name:</label>
+                <input type="text" id="name" name="name" required><br>
+            </div>
+            <div class="main"><label class="h" for="branch">Branch:</label>
+                <input type="text" id="branch" name="branch" required>
+            </div>
+            <div class="main"><label class="h" for="college">Select:</label>
+                <input type="radio" id="college" name="college" value="college" required>
+                <label class="h" for="college">College</label>
+                <input type="radio" id="outside_college" name="college" value="outside_college" required>
+                <label class="h" for="outside_college">Outside College</label>
+            </div>
+            <br>
+            <div class="main"><label class="h" for="gender">Gender:</label>
+                <input type="radio" id="female" name="gender" value="female" required>
+                <label class="h" for="female">Male</label> 
+                    <input type="radio" id="female" name="gender" value="female" required>
+                    <label class="h" for="female">Female</label>
+            </div>
+            <br>
+            <div class="main"><label class="h" for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br>
+            </div>
+            <div class="main"><label class="h" for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone" required><br>
+            </div>
+            <button>
+                SUBMIT
+                <div class="arrow-wrapper">
+                    <div class="arrow"></div>
+                </div>
+            </button>
+        </form>
+        </div>
+    </main>
 
 </body>
+
 </html>
